@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.footerContainer {
+  text-align: center;
+  align-self: stretch;
+  background-color: #cbd5e1;
+  margin-bottom: 65px;
+}
+
+.footerText {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .footerText {
+    font-size: 50px;
+  }
+}
